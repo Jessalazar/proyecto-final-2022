@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+
+header {
+    background-color: black;
+    height: 5%;
+}
+
+.grid-galeria{
+    display: grid;
+    height: 75vh;
+    width: 80%;
+    padding-left: 10vh;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+
+
+}
+
+.grid-galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer{
+    background-color: #187aef;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.margen{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}

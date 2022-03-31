@@ -1,0 +1,24 @@
+{
+  "name": "jessica-salazar-proyecto-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/prueba.css", "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jessalazar/proyecto-final-2022.git"
+  },
+  "author": "Jessica Salazar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jessalazar/proyecto-final-2022/issues"
+  },
+  "homepage": "https://github.com/Jessalazar/proyecto-final-2022#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
